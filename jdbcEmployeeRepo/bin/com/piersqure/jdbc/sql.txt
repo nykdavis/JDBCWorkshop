@@ -1,3 +1,10 @@
+-- Creating a table named 'JDBCEmployee' to store employee details.
+-- The table includes the following columns:
+-- - id: A unique identifier for each employee (Primary Key).
+-- - name: The name of the employee (Variable Character type with a maximum length of 255 characters).
+-- - department: The department in which the employee works (Variable Character type with a maximum length of 255 characters).
+-- - salary: The salary of the employee (Double type to handle decimal values).
+
 CREATE TABLE JDBCEmployee (
     id INT PRIMARY KEY,
     name VARCHAR(255),
